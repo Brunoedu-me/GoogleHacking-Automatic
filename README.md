@@ -13,7 +13,7 @@ Este script foi projetado com o intuito de economizar tempo. Ele faz automaticam
 
 ### Requisitos
 
-- Python 3.5+
+- Python 3.x
 
 #### Utilização do script:
 
