@@ -11,7 +11,7 @@ Este script foi projetado com o intuito de economizar tempo. Ele faz automaticam
 
 <p>2- Digite: pip install google<p/>
 
-##### Requisitos
+### Requisitos
 
 - Python 3.5+
 
