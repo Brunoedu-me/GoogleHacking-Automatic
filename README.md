@@ -5,7 +5,7 @@ Script para usar o Google Hacking.
 ### Data: 01/07/2019
 
 ### Não copie este código sem me dar os créditos, nerd!
-Este script foi projetado com o intuito de economizar tempo. Ele faz automaticamente uma busca no Google para encontrar no URL especificado as informações disponíveis para filtro.
+Este script foi projetado com o intuito de economizar tempo. Ele faz automaticamente uma busca no Google para encontrar no URL especificado as informações disponíveis nas opções de filtro.
 
 #### Instalação pacote google:
 
