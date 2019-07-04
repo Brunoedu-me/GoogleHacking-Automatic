@@ -29,3 +29,11 @@ $ pip uninstall google
 ```
 $ python gh.py
 ```
+
+<p> Se você tiver mais de duas versões do Python em sua máquina, tome cuidado com o PATH referenciado. O erro de referência pode ocasionar erros e má execução do código.<p/>
+
+##### Caso você deseje atualizar o pip
+
+```
+$ python -m pip install --upgrade pip
+```
