@@ -1,7 +1,7 @@
 # GoogleHacking-Automatic 1.0v
 Script para usar o Google Hacking.
 
-## Autor: Bruno Eduardo
+## Autor: Bruno Silva
 ### Data: 01/07/2019
 Este script foi projetado com o intuito de economizar tempo. Ele faz automaticamente uma busca no Google para encontrar no URL especificado as informações disponíveis para filtro.
 
