@@ -40,37 +40,37 @@ controle()
 while True:
 	console = input("Selecione uma opção: ")
 	if console == '0':
-		print("Até a proxima")
+		print("Até a proxima!")
 		break
 	elif console == '1':
 		with open("ghemails.txt", "w") as stream:
 			for url in search(email, stop=28):
 				print(url, file=stream)
-				print("Os e-mails encontrados foram salvos em ghemails.txt")
-			print("Processo concluído")
+			print("O processo foi concluído.")
+			print("Os e-mails encontrados foram salvos em ghemails.txt")
 	elif console == '2':
 		with open("ghacesslog.txt", "w") as stream:
 			for url in search(acesslog, stop=28):
 				print(url, file=stream)
-				print("Os Acess Log encontrados foram salvos em ghacesslog.txt")
-			print("Processo concluído")
+			print("O processo foi concluído.")
+			print("Os Acess Log encontrados foram salvos em ghacesslog.txt")
 	elif console == '3':
 		with open("ghindexof.txt", "w") as stream:
 			for url in search(indexof, stop=28):
 				print(url, file=stream)
-				print("Os Index OF encontrados foram gravados em ghindexof.txt")
-			print("Processo concluído")
+			print("O processo foi concluído.")
+			print("Os Index OF encontrados foram gravados em ghindexof.txt")
 	elif console == '4':
 		with open("ghrobots.txt", "w") as stream:
 			for url in search(robotstxt, stop=28):
 				print(url, file=stream)
-				print("Os Robots.txt encontrados foram registrados em ghrobots.txt")
-			print("Processo concluído")
+			print("O processo foi concluído.")
+			print("Os Robots.txt encontrados foram registrados em ghrobots.txt")
 	elif console == '5':
 		with open("ghsenhas.txt", "w") as stream:
 			for url in search(senha, stop=28):
 				print(url, file=stream)
-				print("As senhas foram transferidas para o arquivo ghsenhas.txt")
-			print("Processo concluído")
+			print("O processo foi concluído.")
+			print("As senhas foram transferidas para o arquivo ghsenhas.txt")
 	else:
-		print("Opção inválida. Tente novamente!")
+		print("Opção inválida. Tente novamente.")
