@@ -11,6 +11,11 @@ Este script foi projetado com o intuito de economizar tempo. Ele faz automaticam
 
 <p>2- Digite: pip install google<p/>
 
+##### Se você quiser desinstalar o pip google
+```
+$ pip uninstall google
+```
+
 ### Requisitos
 
 - Python 3.x
